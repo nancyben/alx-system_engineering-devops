@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aP | grep -v / | tr '\n' ',' ; echo '\n'
+ls -maF
