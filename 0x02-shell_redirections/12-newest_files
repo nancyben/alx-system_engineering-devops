@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -At | grep -v '^d' | head -n 10
+ls -pt | egrep -v /$ | head -n 10
